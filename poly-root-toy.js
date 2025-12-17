@@ -405,9 +405,8 @@
     },
 
     'setupPoints': function() {
+	  var rootColors = ['red', 'green', 'blue', 'orange', 'purple', 'brown'];
       for (var i=0; i<this.degree; i++) {
-        var rootColors = ['red', 'green', 'blue', 'orange', 'purple', 'brown'];
-
         this.rootPoints[i] =
           this.rootbox.create('point', [0, 0], {
             name: "",
